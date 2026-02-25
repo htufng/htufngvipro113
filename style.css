@@ -1,12 +1,34 @@
+.container{
+   display: flex;
+   flex-direction: column;
+   height: 100vh;
+}
+.header{
+    flex: 20%;
+    background-color: lightgray;
+}
+.menu{
+    flex: 5%
+    background-color: pink;
+}
+.content{
+    flex: 70%
+    background-color: purple;
+}
+.footer{
+    flex: 5%
+    background-color: orange;
+}
 h1 {
-  color:red
+  color: red;
 }
 .tieude {
   color: tomato;
-  font-weight: bold;
+  font-weigth: bold;
   font-size: 20pt;
 }
 .noidung {
   color: black;
   font-style: normal;
   font-size: 14pt;
+}
